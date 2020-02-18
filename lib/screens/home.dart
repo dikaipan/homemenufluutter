@@ -157,7 +157,17 @@ class _HomeState extends State<Home> {
                   ),
                   const SizedBox(height: 16.0),
                   Divider(),
-                  Center()
+                  Column(
+                    children: <Widget>[
+                      Container(
+                          color: Colors.amber,
+                          child: Center(
+                            child: Column(
+                              children: <Widget>[],
+                            ),
+                          ))
+                    ],
+                  )
                 ],
               ),
             ),
